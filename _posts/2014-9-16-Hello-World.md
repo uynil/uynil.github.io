@@ -1,3 +1,10 @@
-#Hello
+---
+　　layout: blog
+　　title: Hello，World
+---
 
-World
+#{{page.title}}
+### {{ page.date | date_to_string }}
+
+* My first blog post
+#### !! 
