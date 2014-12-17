@@ -1,3 +1,11 @@
+---
+layout: blog
+title: How does odoo help your business
+---
+
+#{{page.title}}
+
+### {{ page.date | date_to_string }}
 # Manage Sales
 
 Sales Order is always the start of a company process in ERP management.
