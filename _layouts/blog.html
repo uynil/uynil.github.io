@@ -16,21 +16,21 @@
     <div class="wrapper">
       <header>
         <h1>Yu' Blog</h1>
+        <p class="view"><a href="https://github.com/uynil">GitHub Link</a></p>
+        <p class="view"><a href="http://uynil.gitbooks.io/odoo-wms/">odoo wms</a></p>
         <p>最新文章</p>
 　　    <ul>
 　　　　    {% for post in site.posts %}
 　　　　　　    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　　    {% endfor %}
 　　    </ul>
-        <p class="view"><a href="https://github.com/uynil">GitHub Link</a></p>
-        <p class="view"><a href="http://uynil.gitbooks.io/odoo-wms/">odoo wms</a></p>
       </header>
       <section>
          {{content}}
       </section>
       <footer>
         <script src="/javascripts/scale.fix.js"></script>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small> | 
         <small><script language="javascript" type="text/javascript" src="http://js.users.51.la/17567251.js"></script>
         <!--noscript><a href="http://www.51.la/?17567251" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17567251.asp" style="border:none;display:none" /></a></noscript-->
         </small></p>
