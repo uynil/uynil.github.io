@@ -90,7 +90,7 @@ name="module.report_sale_order_xxx"
 </template>
 ```
 
-### 创建报表样式
+### 3. 创建报表样式
 
 odoo 使用 bootstrap 作为网页样式：
 http://www.w3cschool.cc/bootstrap/bootstrap-grid-system.html
@@ -131,7 +131,7 @@ http://www.w3cschool.cc/bootstrap/bootstrap-grid-system.html
 
 ```
 
-### 3. 创建自定义的渲染函数
+### 4. 创建自定义的渲染函数
 有两个方法
 ### 方法 1 
 odoo 使用这个方法重用7版代码
