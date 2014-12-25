@@ -1,4 +1,11 @@
-# odoo accounting
+---
+layout: blog
+title: odoo accounting
+---
+
+#{{page.title}}
+
+### {{ page.date | date_to_string }}
 
 ## Introduction
 
