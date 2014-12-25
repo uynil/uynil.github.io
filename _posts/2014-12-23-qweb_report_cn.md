@@ -1,16 +1,16 @@
 ---
 layout: blog
-title: odoo qweb 报表开发建议教程
+title: odoo qweb 报表开发简易教程
 ---
 
 #{{page.title}}
 
 ### {{ page.date | date_to_string }}
 
-介绍之前， 强调下odoo (原 openerp) 是开源软件, 源码是最好的老师，关于如何开发qweb报表，请多看源码。
+正文之前， 先说两件事：
+一. 强调下odoo (原 openerp) 是开源软件, 源码是最好的老师，关于如何开发qweb报表，请多看源码。
 例子，point_of_sale模块有多个qweb报表的例子。
-
-再贴个招聘链接。
+二. 贴个招聘链接。
 ## [Elico Corp (深圳) 正要招聘odoo技术工程师][job_link]
 [job_link]: http://simple-is-better.com/jobs/866 "Eilco Shenzhen hire odoo developers"
 
