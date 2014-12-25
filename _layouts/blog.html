@@ -3,27 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Uynil.github.io by uynil</title>
+    <title>Blog by LIN Yu</title>
 
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
-    <!--script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script-->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Uynil.github.io</h1>
+        <h1></h1>
         <p></p>
+        <p class="view"><a href="https://github.com/uynil">GitHub Link</a></p>
+        <p> <script src="/javascripts/scale.fix.js"></script>
+        <script language="javascript" type="text/javascript" src="http://js.users.51.la/17567251.js"></script>
+        <noscript><a href="http://www.51.la/?17567251" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17567251.asp" style="border:none;display:none" /></a></noscript>
+        </p>
     <p>最新文章</p>
 　　<ul>
 　　　　{% for post in site.posts %}
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　　{% endfor %}
 　　</ul>
-        <p class="view"><a href="https://github.com/uynil">View My GitHub Profile</a></p>
       </header>
       <section>
          {{content}}
@@ -32,9 +36,6 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="/javascripts/scale.fix.js"></script>
-    <script language="javascript" type="text/javascript" src="http://js.users.51.la/17567251.js"></script>
-    <noscript><a href="http://www.51.la/?17567251" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17567251.asp" style="border:none;display:none" /></a></noscript>
     
   </body>
 </html>
