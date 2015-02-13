@@ -4,10 +4,11 @@ title: odoo tdd 初探
 ---
 
 TDD 测试驱动
+
 具体的TDD驱动开发
+
 最近我在用TDD开发一个框架，深切的体会就是，除了写测试、写代码、重构三种状态。
 TDD的具体应用实例， 就是XP极限编程，TDD + 重构。
-
 
 odoo tdd 的意义讨论。
 之所以为了tdd，一是现在我司项目定制越来越多，开发需要质量管控，质量管控在开发中就体现在unit test，unit test的最好实践模式就为 tdd，二是 tdd，是当今敏捷，寰享科技深圳公司希望实践敏捷，实现持续交付，tdd就是其中开发环节必不可少的一环。
@@ -43,8 +44,11 @@ linux 开发服务器
 
 https://www.odoo.com/documentation/8.0/reference/testing.html
 https://www.odoo.com/forum/how-to/developers-13/how-to-run-tests-526
+
 >  Tests are automatically run when installing or updating modules if --test-enable was enabled when starting the Odoo server.
 > As of Odoo 8, running tests outside of the install/update cycle is not supported.
+
+
 
 以更新模块 (-d dbname -u module_name)和测试模式 (--test-enable --log-level=test) 启动odoo 服务器。
 
@@ -52,7 +56,9 @@ https://www.odoo.com/forum/how-to/developers-13/how-to-run-tests-526
 
 
 ### 1. 细化功能
+
 1. create menu, action, wizard
+
 创建按钮，动作，视图。没有走python unit。
 也没有走 web test。
 
@@ -65,7 +71,9 @@ https://www.odoo.com/forum/how-to/developers-13/how-to-run-tests-526
 
 3. create email from wizard
 3.1 创建 第一个测试函数和原型函数。
+
 test_create_email
+
 ```
 class TestMassEmail(TransactionCase):
     def test_create_email(self):
@@ -78,6 +86,7 @@ class TestMassEmail(TransactionCase):
             1,
             len(wizard_ids))
 ```
+
 wizard
 ```
 class mass_email_suppliercustomer(osv.osv_memory):
@@ -100,7 +109,9 @@ class mass_email_suppliercustomer(osv.osv_memory):
 ```
 
 3.2 添加 wizard 属性
+
 test
+
 ```
 class TestMassEmail(TransactionCase):
     def test_create_email(self):
@@ -124,6 +135,7 @@ class TestMassEmail(TransactionCase):
             47,
             len(mail_ids))
 ```
+
 wizard
 ```
 class mass_email_suppliercustomer(osv.osv_memory):
@@ -167,9 +179,11 @@ class mass_email_suppliercustomer(osv.osv_memory):
         return res
 ```
 
-
 3.3 创建 客户邮件测试
+
 测试完删除测试数据
+
+```
     def test_create_client(self):
         cr, uid = self.cr, self.uid
         val = {
@@ -192,10 +206,12 @@ class mass_email_suppliercustomer(osv.osv_memory):
             47,
             len(mail_ids))
         self.env['mail.mail'].unlink()
-
+```
 
 3.4 创建 客户邮件测试
+
 test case
+
 ```
     def test_create_client(self):
         cr, uid = self.cr, self.uid
@@ -274,16 +290,15 @@ test case
 
 # odoo tdd 小结
 
-通过 tdd 实现开发思路的整理。
+* 通过 tdd 实现开发思路的整理。
 tdd是一个编程思路，没有tdd的习惯，直接写功能函数。
 
-odoo前台编程，是简单的xml编写，后台渲染，所以可以快速验证，单元测试没有必要。
+* odoo前台编程，是简单的xml编写，后台渲染，所以可以快速验证，单元测试没有必要。
 v8的qweb 报表，v7的rml报表也是一样。
 
-通常情况下，编程时，我会加上一些print 语句，判断关键节点的变量。
+* 通常情况下，编程时，我会加上一些print 语句，判断关键节点的变量。
 
-前台 后台的顺序可以点到，先编写后台，再写前台。
-
+* tdd 下，前台 后台的顺序可以点到，先编写后台，再写前台。
 
 
 ## [寰享科技(深圳) 正在招聘 初级/高级odoo 技术工程师][job_link]
