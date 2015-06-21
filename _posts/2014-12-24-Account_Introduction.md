@@ -1,6 +1,8 @@
 ---
 layout: post
 title: odoo accounting
+tags: [odoo]
+
 ---
 
 #{{page.title}}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: odoo qweb 报表开发简易教程
+tags: [odoo]
 ---
 
 #{{page.title}}

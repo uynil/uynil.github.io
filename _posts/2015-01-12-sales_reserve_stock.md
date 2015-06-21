@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 销售占用库存
+tags: [odoo]
+
 ---
 
 #{{page.title}}

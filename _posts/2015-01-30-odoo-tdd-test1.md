@@ -1,6 +1,8 @@
 ---
 layout: post
 title: odoo tdd 初探
+tags: [odoo, tdd]
+
 ---
 
 TDD 测试驱动

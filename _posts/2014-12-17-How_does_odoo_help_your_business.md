@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How does odoo help your business
+tags: [odoo]
 ---
 
 #{{page.title}}

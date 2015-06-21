@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Qweb report introduction
+tags: [odoo]
 ---
 
 #{{page.title}}

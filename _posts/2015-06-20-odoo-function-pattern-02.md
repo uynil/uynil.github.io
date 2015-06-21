@@ -1,6 +1,8 @@
 ---
 layout: post
 title: oodo 设计模式一 - 消息通知
+tags: [odoo, odoo设计模式]
+
 ---
 ## 问题
 系统根据单据更新发送消息通知相关人员。
