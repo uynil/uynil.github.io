@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 跑步笔记顺德150618
+tags: [running]
 ---
 
 22h38 - 23h08  脚感4公里
