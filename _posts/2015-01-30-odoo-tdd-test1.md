@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: odoo tdd 初探
 ---
 

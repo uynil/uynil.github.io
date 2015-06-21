@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: odoo qweb 报表开发简易教程
 ---
 

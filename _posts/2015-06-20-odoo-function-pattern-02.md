@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: oodo 设计模式一 - 消息通知
 ---
 ## 问题

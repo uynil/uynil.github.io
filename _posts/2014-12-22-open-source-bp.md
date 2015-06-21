@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 企业软件开源探索
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 跑步笔记顺德150618
 ---
 

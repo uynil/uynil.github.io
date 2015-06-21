@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 销售占用库存
 ---
 

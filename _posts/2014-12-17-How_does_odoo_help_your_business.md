@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: How does odoo help your business
 ---
 

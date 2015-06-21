@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: odoo设计模式
 ---
 
