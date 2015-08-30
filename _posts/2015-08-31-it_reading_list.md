@@ -8,7 +8,8 @@ tags: [其他]
 时下的阅读，网络过来的信息铺天盖地，虽然过于碎片化、简单化，但在互联网上的知识传播上更快更新。
 
 除了传统大块阅读之外，主动搜索也是不得不提的一块。以下是我列出的查找渠道
-# 主动搜索渠道
+
+## 主动搜索渠道
 
     * 个人知识笔记 ( pocket, evernote)
     * baidu / google / bing
@@ -19,7 +20,7 @@ tags: [其他]
 
 把个人知识笔记的选项放在首位，是因为它的多少才是专家和大众的区别。阅读完之后，阅读标记固化信息尤为重要。目前pocket在收集网络信息上最为流行和方便。
 
-# 网络渠道
+## 网络渠道
 
 互联网媒体
 
@@ -74,7 +75,7 @@ Podcast 播客 (荔枝FM, 喜马拉雅)， 适合上下班通勤
     * coursera / 网易公开课 
 
 
-# 传统书籍
+## 传统书籍
 
 概念类书籍
 
@@ -105,10 +106,10 @@ Podcast 播客 (荔枝FM, 喜马拉雅)， 适合上下班通勤
 
 技术类书籍
 
- [ThoughtWorks 程序员读书雷达]
+[ThoughtWorks 程序员读书雷达]
 ( http://www.oschina.net/news/39816/thoughtworks-developer-reading-radar)
  
-    百度 thought works 技术雷达， 有分  四大类
+    其中经典好书很多，有分四大类:
     * Coding Practice（编程实践）
     * Architecture & Design（架构与设计）
     * Methodology（方法学）
