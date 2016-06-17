@@ -73,3 +73,4 @@ java-property-utils-1.9.1.jar, http://search.maven.org/remotecontent?filepath=co
 ### 参考文章
 1. CORS 问题: http://stackoverflow.com/questions/20035101/no-access-control-allow-origin-header-is-present-on-the-requested-resource?rq=1
 2. CAS CORS 配置:  http://software.dzhuvinov.com/cors-filter-installation.html
+3. https://wiki.jasig.org/pages/viewpage.action?pageId=67928681
