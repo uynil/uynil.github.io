@@ -8,6 +8,7 @@ tags: [Python]
 
 #### 1. iterator
 定义
+
 ``` python
 class ITE(object):
     def __init__(self):
@@ -24,7 +25,7 @@ class ITE(object):
     #不是必须
     def hasNext():
         return self.next != 0
-``` python
+```
 
 优点
     对于无法随机访问的数据结构，迭代器是唯一的访问元素的方式。
