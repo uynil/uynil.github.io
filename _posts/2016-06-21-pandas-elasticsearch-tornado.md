@@ -8,7 +8,7 @@ tags: [Python, Pandas]
 
 #### 1. using pandas from dict
 
-``` Python
+``` python
 from datetime import datetime
 from elasticsearch import Elasticsearch
 from pandas import DataFrame, Series
@@ -40,8 +40,6 @@ print df.reset_index(drop=True)
 # 1  2014-08-07T12:36:00.200Z  app1.log
 
 ```
-
-#### 2. 选择对象
 
 
 ### 参考文章
